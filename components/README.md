@@ -1,6 +1,12 @@
-# How to create a component in a library
+# Plantuml components library
 
-## Describe component
+## Introduction
+
+
+
+## How to create a component in a library
+
+### Describe component
 
 ```plantuml
 @startuml (id=component)
@@ -13,7 +19,7 @@ component "Component name" as component-variable <<component>>
 Change the component name, `component-variable` and component stereotype as required.
 You can keep the `<<component>>` stereotype if you don't have another.
 
-## Describe what interfaces the component provides
+### Describe what interfaces the component provides
 
 ```plantuml
 @startuml (id=interfaces)
@@ -42,7 +48,7 @@ Use right component file name in `!include`.
 Add provide interface to `!startsub` block.
 Use a personal `!startsub` block for each interface.
 
-## Describe what interfaces the component required
+### Describe what interfaces the component required
 
 ```plantuml
 @startuml (id=required-interfaces)
