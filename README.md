@@ -1,1 +1,1 @@
-# ibank-plantuml-library
+# ibank-library
