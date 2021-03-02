@@ -41,4 +41,4 @@ jobs:
         uses: cloudbees/plantuml-github-action@v1.1.0
         with:
           # Arguments for PlantUML tool
-          args: # default is -h
+          args: -v -tpng ${{ steps.getfile.outputs.files }} # default is -h
