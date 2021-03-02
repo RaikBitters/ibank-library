@@ -23,7 +23,7 @@ frame "Deposit management" {
 }
 
 frame "Card management" {
-    
+    component "Card management" as Card management <<Component>>
 }
 
 frame "Loan management" {
