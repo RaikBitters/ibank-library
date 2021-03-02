@@ -23,15 +23,15 @@ frame "Deposit management" {
 }
 
 frame "Card management" {
-    [1]
+    
 }
 
 frame "Loan management" {
-    [2]
+    
 }
 
 frame "Customer management" {
-    [3]
+    
 }
 
 frame "User management" {
