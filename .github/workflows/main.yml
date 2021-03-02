@@ -44,3 +44,5 @@ jobs:
           path: .
           # the commit message when committing generated images
           message: Render PlantUML files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
