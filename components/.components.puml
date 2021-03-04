@@ -3,7 +3,7 @@
 left to right direction
 
 frame "Payment management" {
-    component "Payment services 2" as Payment <<service>>
+    component "Payment services" as Payment <<service>>
     component "Fast payment services" as FastPayment <<service>>
     component "Document number services" as DocumentNumber <<Component>>
     component "Cash withdrawal services" as CashWithdrawal <<Component>>
@@ -23,7 +23,7 @@ frame "Deposit management" {
 }
 
 frame "Card management" {
-    component "Card management" as Card management <<Component>>
+    component "Card management" as Card <<Component>>
 }
 
 frame "Loan management" {
