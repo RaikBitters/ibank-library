@@ -31,7 +31,7 @@ jobs:
         uses: grassedge/generate-plantuml-action@v1.5
         with:
           # path to directory which generated svg is stored
-          path: assets/images
+          path: assets/images/diagrams
           # the commit message when committing generated images
           message: Render PlantUML files
         env:
